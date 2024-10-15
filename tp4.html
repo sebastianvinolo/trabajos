@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <h1>gorras</h1>
+
+            <label for="nombre">Ingrese el nombre de la gorra</label><br>
+            <input type="text" name="nombregorra" id="nombre" required><br>
+
+            <br>
+
+            <label for="modelo">Ingrese el modelo</label>
+            <select name="modelo" id="modelo">
+                <option value="cerrada">cerrada</option>
+                <option value="abierta">abierta</option>
+            </select><br>
+            
+            <br>
+
+            <label for="talle">Ingrese el talle:</label><br>
+            <input type="radio" name="talle" id="talle" value="XS" checked>
+            <label for="talle">XS</label>
+            <input type="radio" name="talle" id="talle" value="S">
+            <label for="talle">S</label>
+            <input type="radio" name="talle" id="talle" value="M">
+            <label for="talle">M</label>
+            <input type="radio" name="talle" id="talle" value="L">
+            <label for="talle">L</label>
+            <input type="radio" name="talle" id="talle" value="XL">
+            <label for="talle">XL</label><br>
+
+            <br>
+
+            <label for="img">ponga una imagen</label>
+            <input type="file" name="img" id="img"><br>
+
+            <br>
+
+            <label for="edicion">Ingrese la edicion del modelo:</label><br>
+            <input type="checkbox" name="edicion" id="edicion" checked>
+            <label for="edicion">especial</label>
+            <input type="checkbox" name="edicion" id="edicion">
+            <label for="edicion">estandar</label><br>
+
+            <br>
+            
+            <label for="descripcion">agregue una descripcion</label><br>
+            <textarea name="descripcion" id="descripcion" rows="4" cols="25">
+            </textarea><br>
+
+            <br>
+
+            <label for="contraseña">Ingrese la contraseña</label><br>
+            <input type="password" name="contraseña" id="contraseña"><br>
+
+            <br>
+            
+            <input type="submit" name="subir" value="subir">
+            <input type="reset" name="borrar" value="borrar" disabled>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
